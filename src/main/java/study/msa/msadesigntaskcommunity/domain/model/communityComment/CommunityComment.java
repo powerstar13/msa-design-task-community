@@ -17,4 +17,6 @@ public class CommunityComment {
     private MemberTargetType communityCommentType; // 댓글 작성자 유형
 
     private String communityCommentContent; // 댓글 내용
+
+    private CommunityShowType communityShowType; // 댓글 노출 여부
 }

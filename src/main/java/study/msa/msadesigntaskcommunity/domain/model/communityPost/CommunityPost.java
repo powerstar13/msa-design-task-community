@@ -2,6 +2,7 @@ package study.msa.msadesigntaskcommunity.domain.model.communityPost;
 
 import lombok.*;
 import study.msa.msadesigntaskcommunity.domain.model.communityComment.CommunityComment;
+import study.msa.msadesigntaskcommunity.domain.model.communityComment.CommunityShowType;
 
 import java.util.List;
 
@@ -20,5 +21,8 @@ public class CommunityPost {
     private String communitySubject; // 게시글 제목
     private String communityContent; // 게시글 내용
 
+    private CommunityShowType communityShowType; // 게시글 노출 여부
+
     private List<CommunityComment> communityCommentList; // 댓글 목록
+
 }
